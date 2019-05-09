@@ -1,0 +1,7 @@
+<!--components/check-group/check-group.wxml-->
+<block wx:for="{{items}}" wx:key="{{index}}">
+	<view class="checkbox {{item.checked ? 'checkbox-active': ''}}" data-index="{{index}}" bind:tap="handleCheckboxTap">
+		<text>{{item.label}}</text>
+	</view>
+</block>
+

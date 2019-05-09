@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "by-checkbox-group":"../../components/checkbox-group/index"
+  }
+}
